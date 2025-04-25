@@ -28,12 +28,12 @@ const bools = uniqueDataTypesFunc<boolean>(true, false);
 // console.log(strings);
 // console.log(bools);
 
-interface Dog {
+interface Dog1 {
   name: string;
   breed: string;
 }
 
-const dog1 = uniqueDataTypesFunc<Dog>({name: "Nova", breed: "Golden Retriever"}, {name: "Tommy", breed: "Labrador"});
+const dog1 = uniqueDataTypesFunc<Dog1>({name: "Nova", breed: "Golden Retriever"}, {name: "Tommy", breed: "Labrador"});
 // console.log(dog1);
 
 function getRandomKeyValuePair<T>(obj: {[key: string] : T}): {key: string; value: T;} {
