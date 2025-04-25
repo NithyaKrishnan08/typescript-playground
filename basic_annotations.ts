@@ -38,7 +38,7 @@ enum Color {
 let c: Color = Color.Red;
 
 // Function parameters annotations
-function greet(name: string): string {
+function greet8(name: string): string {
   return `Hello, ${name}!`;
 }
 // console.log(greet("John"));
